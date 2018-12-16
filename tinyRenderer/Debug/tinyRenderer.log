@@ -1,0 +1,24 @@
+﻿  Lesson7_main.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\lesson7_main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tgaimage.h(65): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\our_gl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\lesson7_main.cpp(55): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\lesson7_main.cpp(75): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\lesson7_main.cpp(116): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\lesson7_main.cpp(155): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\lesson7_main.cpp(183): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+geometry.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+  tinyRenderer.vcxproj -> E:\GameLearning\tinyRenderer\Debug\tinyRenderer.exe
