@@ -42,9 +42,57 @@
     <ClInclude Include="SDL_Lession\cleanup.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tinySoftRenderer\BaseSDL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\RenderContex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\Random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\cleanup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\Rasterizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\tgaimage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinySoftRenderer\our_gl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SDL_Lession\Lession03\Lession03_main.cpp">
+    <ClCompile Include="tinySoftRenderer\BaseSDL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinySoftRenderer\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinySoftRenderer\Rasterizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tgaimage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinySoftRenderer\model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinySoftRenderer\tgaimage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinySoftRenderer\our_gl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,0 +1,104 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: 名为 model.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 model.cpp, tinySoftRenderer\model.cpp。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: 名为 tgaimage.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 tgaimage.cpp, tinySoftRenderer\tgaimage.cpp。
+  model.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tgaimage.h(65): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\model.cpp(82): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\model.cpp(87): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\model.cpp(104): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  tgaimage.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tgaimage.h(65): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+  BaseSDL.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\basesdl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\basesdl.h(11): fatal error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  main.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\color.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h(44): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\basesdl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\basesdl.h(11): fatal error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  model.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\color.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h(44): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\tgaimage.h(69): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\model.cpp(82): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\model.cpp(87): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\model.cpp(104): warning C4244: “参数”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              T=int
+          ]
+  our_gl.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\our_gl.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\our_gl.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\color.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h(44): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\tgaimage.h(69): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+  Rasterizer.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rendercontex.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\color.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h(44): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\tgaimage.h(69): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rasterizer.cpp(24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rasterizer.cpp(56): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rasterizer.cpp(81): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  tgaimage.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\color.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h(44): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\tgaimage.h(69): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据

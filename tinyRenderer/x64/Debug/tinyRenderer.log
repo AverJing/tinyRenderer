@@ -1,7 +1,25 @@
-﻿  Lession03_main.cpp
-e:\gamelearning\tinyrenderer\tinyrenderer\sdl_lession\lession03\lession03_main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-e:\gamelearning\tinyrenderer\tinyrenderer\sdl_lession\cleanup.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: 名为 model.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 model.cpp, tinySoftRenderer\model.cpp。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: 名为 tgaimage.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 tgaimage.cpp, tinySoftRenderer\tgaimage.cpp。
+  Rasterizer.cpp
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rendercontex.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\color.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\random.h(44): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\tgaimage.h(69): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rasterizer.cpp(24): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rasterizer.cpp(56): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+e:\gamelearning\tinyrenderer\tinyrenderer\tinysoftrenderer\rasterizer.cpp(81): warning C4244: “参数”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
 LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
-Lession03_main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+model.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+x64\Debug\model.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+x64\Debug\tgaimage.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
 MSVCRTD.lib(initializers.obj) : warning LNK4098: 默认库“msvcrt.lib”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   tinyRenderer.vcxproj -> E:\GameLearning\tinyRenderer\x64\Debug\tinyRenderer.exe

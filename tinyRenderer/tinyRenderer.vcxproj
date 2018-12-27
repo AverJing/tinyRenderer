@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{AF005414-964C-4558-974D-B6104B8EF6D7}</ProjectGuid>
     <RootNamespace>tinyRenderer</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -138,10 +138,26 @@
     <ClInclude Include="our_gl.h" />
     <ClInclude Include="SDL_Lession\cleanup.h" />
     <ClInclude Include="tgaimage.h" />
+    <ClInclude Include="tinySoftRenderer\BaseSDL.h" />
+    <ClInclude Include="tinySoftRenderer\cleanup.h" />
+    <ClInclude Include="tinySoftRenderer\Color.h" />
+    <ClInclude Include="tinySoftRenderer\model.h" />
+    <ClInclude Include="tinySoftRenderer\our_gl.h" />
+    <ClInclude Include="tinySoftRenderer\Random.h" />
+    <ClInclude Include="tinySoftRenderer\Rasterizer.h" />
+    <ClInclude Include="tinySoftRenderer\RenderContex.h" />
+    <ClInclude Include="tinySoftRenderer\tgaimage.h" />
     <ClInclude Include="triangle.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SDL_Lession\Lession03\Lession03_main.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="tgaimage.cpp" />
+    <ClCompile Include="tinySoftRenderer\BaseSDL.cpp" />
+    <ClCompile Include="tinySoftRenderer\main.cpp" />
+    <ClCompile Include="tinySoftRenderer\model.cpp" />
+    <ClCompile Include="tinySoftRenderer\our_gl.cpp" />
+    <ClCompile Include="tinySoftRenderer\Rasterizer.cpp" />
+    <ClCompile Include="tinySoftRenderer\tgaimage.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
