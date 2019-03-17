@@ -137,6 +137,7 @@
     <ClInclude Include="model.h" />
     <ClInclude Include="our_gl.h" />
     <ClInclude Include="SDL_Lession\cleanup.h" />
+    <ClInclude Include="tinySoftRenderer\Shader.h" />
     <ClInclude Include="tgaimage.h" />
     <ClInclude Include="tinySoftRenderer\BaseSDL.h" />
     <ClInclude Include="tinySoftRenderer\cleanup.h" />

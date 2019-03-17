@@ -30,7 +30,6 @@ void projection4(float offset) {
 	Projection[3][2] = offset;
 }
 
-//换了一个投影矩阵就出错？
 void projection2(float r, float t, float zNear, float zFar) {
 	Projection2[0][0] = zNear / r;
 	Projection2[1][1] = zNear / t;

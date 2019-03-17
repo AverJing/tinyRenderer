@@ -26,14 +26,6 @@ Matrix translate(Vec3f v);
 Matrix rotateByZaxis(float theta);
 Matrix rotateByYaxis(float theta);
 
-struct IShader {
-	virtual ~IShader() {};
-	virtual Vec4f vertex(int iface, int nthervt) = 0;
-	virtual bool fragment(Vec3f bar, TGAColor& color) = 0;
-
-	//lesson 8
-	//virtual bool fragment(Vec3f gl_FragCoord, Vec3f bar, TGAColor &color) = 0;
-};
 
 Vec3f barycentric(Vec3f A, Vec3f B, Vec3f C, Vec3f P);
 //void triangle(Vec3f A, Vec3f B, Vec3f C, TGAImage& image, float zbuffer[])
